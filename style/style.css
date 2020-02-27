@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,200i,300,400,400i,500,500i,600,600i,700,700i,800,800i,900&display=swap');
+
+.main_container {
+    max-width: 1500px;
+    margin: 0;
+    font-family: 'Raleway';
+}
+
+/* .header{
+    display: flex;
+} */
+
+.header {
+    background-image: url(/images/header_img.png);
+}
+
+.nav_panel {
+    left: calc(50% - 222px);
+}
+
+.logo {
+    padding-top: 40px;
+}
+
+.menu-drop {
+    display: none;
+}
+
+.nav_panel {
+    padding-top: 34px;
+}
+
+.nav_panel a:hover {
+    text-decoration: none;
+    color: violet;
+}
+
+.nav_panel a {
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    display: inline-block;
+    padding: 10px;
+}
+
+.text_panel {
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.text_panel h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.text_panel p {
+    color: white;
+}
+
+.btn_header {
+    background-color: #e84545;
+    border: none;
+    width: 279px;
+    height: 50px;
+    text-transform: uppercase;
+}
+
+.second-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.sec_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sec_row img {
+    margin-bottom: 15px;
+}
+
+.sec_row h5 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.sec_row p {
+    text-align: center;
+    color: #6c7279;
+    font-size: 12px;
+}
+
+.sec-with-photos {
+    width: 100%;
+}
+
+.photo{
+    max-width: 25%;
+}
+
+.photo a{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+
+.photo img {
+    width: 100%;
+} 
+
+
+
+
+.card-team{
+    max-width: 100%;
+}
+
+.card-team img{
+    width: 100%;
+}
+
+
+.team_block {
+    margin: 0;
+    text-align: left;
+}
+
+.team-text {
+    padding-top: 10px;
+}
+
+.team-text h5 {
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.team-text .com-position {
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #e84545;
+}
+
+.description_pos {
+    font-size: 12px;
+}
+
+.team {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.feed_block {
+    margin: 0;
+}
+
+/* .client-img img{
+    width: 50%;
+} */
+
+.feedback_block {
+    width: 100%;
+}
+
+.clien_block {
+    display: flex;
+    flex-direction: row;
+}
+
+.text_forth_sec {
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.text_forth_sec h3,
+p {
+    color: black;
+}
+
+.btn_forth_sec {
+    background-color: #e84545;
+    border: none;
+    width: 279px;
+    height: 50px;
+    text-transform: uppercase;
+}
+
+.connection {
+    background-color: #3a3e64;
+    padding-top: 125px;
+    padding-bottom: 125px;
+    text-align: center;
+}
+
+.sec_con {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sec_con h5 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 800;
+    color: white;
+}
+
+.sec_con p {
+    text-align: center;
+    color: #6c7279;
+    font-size: 14px;
+}
+
+.sec_con a {
+    background-color: #6c7279;
+}
+
+footer {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color: #313454;
+}
+
+.footer p {
+    color: #6c7279;
+    font-size: 13px;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .text_panel h1 {
+        font-size: 25px;
+    }
+
+    .nav_panel a {
+        display: none;
+    }
+
+    .menu-drop {
+        display: block;
+        left: 210px;
+        top: -46px;
+        border-radius: 40px;
+    }
+    .drop-block-menu{
+        width: 10%;
+    }
+
+    .btn_header {
+        background-color: #e84545;
+        border: none;
+        width: 180px;
+        height: 50px;
+    }
+
+    .text_forth_sec h3 {
+        font-size: 20px;
+    }
+
+    .btn_forth_sec {
+        background-color: #e84545;
+        border: none;
+        width: 180px;
+        height: 50px;
+        text-transform: uppercase;
+    }
+
+    .team-text h5 {
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+
+    .team-text .com-position {
+        text-transform: uppercase;
+        font-size: 10px;
+        color: #e84545;
+    }
+
+    .team {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+
+    .team-text p {
+        font-size: 11px;
+    }
+
+    .card-team {
+        padding-bottom: 10px;
+    }
+
+    .text_forth_sec h5 {
+        font-size: 12px;
+    }
+
+    .text_forth_sec p {
+        font-size: 11px;
+    }
+
+    .nav_panel {
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+    }
+
+    .links_footer {
+        padding-bottom: 10px;
+    }
+
+    .sec_con {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .ser-con {
+        padding-top: 23px;
+    }
+    .connection {
+        background-color: #3a3e64;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+    footer {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: #313454;
+    }
+    .footer-sec{
+        top: 6px;
+    }
+}
+@media (max-width: 375px) {
+    .text_panel h1 {
+        font-size: 20px;
+    }
+
+    .nav_panel a {
+        display: none;
+    }
+
+    .menu-drop {
+        display: block;
+        left: 210px;
+        top: -46px;
+        border-radius: 40px;
+    }
+    .drop-block-menu{
+        width: 10%;
+    }
+
+    .btn_header {
+        background-color: #e84545;
+        border: none;
+        width: 180px;
+        height: 50px;
+    }
+
+    .text_forth_sec h3 {
+        font-size: 15px;
+    }
+
+    .btn_forth_sec {
+        background-color: #e84545;
+        border: none;
+        width: 180px;
+        height: 50px;
+        text-transform: uppercase;
+    }
+
+    .team-text h5 {
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+
+    .team-text .com-position {
+        text-transform: uppercase;
+        font-size: 10px;
+        color: #e84545;
+    }
+
+    .team {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+
+    .team-text p {
+        font-size: 11px;
+    }
+
+    .card-team {
+        padding-bottom: 10px;
+    }
+
+    .text_forth_sec h5 {
+        font-size: 12px;
+    }
+
+    .text_forth_sec p {
+        font-size: 11px;
+    }
+
+    .nav_panel {
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+    }
+
+    .links_footer {
+        padding-bottom: 10px;
+    }
+    .text_forth_sec h3{
+        font-size: 15px;
+    }
+
+    .sec_con {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ser-con {
+        padding-top: 23px;
+    }
+    .connection {
+        background-color: #3a3e64;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    footer {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: #313454;
+    }
+}
